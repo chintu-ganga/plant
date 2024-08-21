@@ -67,7 +67,7 @@ async function identifyPlant() {
     const response = await fetch('https://api.plant.id/v2/identify', {
         method: 'POST',
         headers: {
-            'Api-Key': 'fxRagklNQeOtdPi26f3NYHVabmEmetbNi0tjky3TMbM3oLQgsZ'
+            'Api-Key': 'Enter your API key here'
         },
         body: formData
     });
